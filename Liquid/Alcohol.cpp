@@ -1,7 +1,7 @@
-#include "Alcohol.h"
+ï»¿#include "Alcohol.h"
 
 Alcohol::Alcohol(double strength)
-	: Liquid("Àëêîãîëü", AlchololDensity) {
+	: Liquid("ĞĞ»ĞºĞ¾Ğ³Ğ¾Ğ»ÑŒ", AlchololDensity) {
 	this->strength = strength;
 }
 

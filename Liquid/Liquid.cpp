@@ -1,4 +1,4 @@
-#include "Liquid.h"
+п»ї#include "Liquid.h"
 
 #include <iostream>
 
@@ -12,11 +12,11 @@ void Liquid::setDensity(double density) {
 
 Liquid::Liquid(const std::string& name, double density) {
 	if (density <= 0) {
-		throw std::invalid_argument("Неверная плотность!");
+		throw std::invalid_argument("РќРµРІРµСЂРЅР°СЏ РїР»РѕС‚РЅРѕСЃС‚СЊ!");
 	}
 
 	if (name == "") {
-		throw std::invalid_argument("Неверное название!");
+		throw std::invalid_argument("РќРµРІРµСЂРЅРѕРµ РЅР°Р·РІР°РЅРёРµ!");
 	}
 
 	setName(name);

@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <clocale>
 #include <Windows.h>
@@ -11,9 +11,9 @@ int main(int argc, char** argv) {
 	SetConsoleOutputCP(1251);
 
 	Alcohol alcohol(10);
-	std::cout << "Íàçâàíèå æèäêîñòè: " << alcohol.getName() << std::endl;
-	std::cout << "Ïëîòíîñòü æèäêîñòè: " << alcohol.getDensity() << std::endl;
-	std::cout << "Êðåïêîñòü àëêîãîëÿ: " << alcohol.getStrength() << std::endl;
+	std::cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ð¶Ð¸Ð´ÐºÐ¾ÑÑ‚Ð¸: " << alcohol.getName() << std::endl;
+	std::cout << "ÐŸÐ»Ð¾Ñ‚Ð½Ð¾ÑÑ‚ÑŒ Ð¶Ð¸Ð´ÐºÐ¾ÑÑ‚Ð¸: " << alcohol.getDensity() << std::endl;
+	std::cout << "ÐšÑ€ÐµÐ¿ÐºÐ¾ÑÑ‚ÑŒ Ð°Ð»ÐºÐ¾Ð³Ð¾Ð»Ñ: " << alcohol.getStrength() << std::endl;
 
 	return 0;
 }
