@@ -1,4 +1,4 @@
-#include "Money.h"
+﻿#include "Money.h"
 
 bool operator==(const Money& first, const Money& second) {
 	return first.rubles == second.rubles && first.penny == second.penny;
